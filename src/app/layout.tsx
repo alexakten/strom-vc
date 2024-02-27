@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: "Founders that accelerate founders",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={GeistSans.className}>
       <body>{children}</body>
