@@ -5,12 +5,12 @@ export default function Home() {
     <main className="flex h-[100svh] items-center justify-center bg-gray-100 px-4">
       <Navbar />
       <div className="flex max-w-4xl flex-col items-center gap-4 text-black">
-        <div className="flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1">
+        <div className="flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-4 py-1">
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400"></span>
           </span>
-          <p className="text-sm">Launching soon</p>
+          <p className="text-sm opacity-50">Launching soon</p>
         </div>
         <h1 className="text-center text-[clamp(40px,7vw,96px)] leading-[1.05] tracking-tighter">
           Founders that <br /> accelerate founders.
