@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
         <p className="max-w-lg text-center text-lg opacity-50">
           Strōm is a community for founders by founders. Get access to talent
-          and capital from startup founders worldwide.
+          and capital from startup entrepreneurs worldwide.
         </p>
         <Link href={""}>
           <button className="group flex items-center gap-2 rounded-full border border-gray-200 bg-black px-6 py-3 transition duration-300 ease-in-out">
