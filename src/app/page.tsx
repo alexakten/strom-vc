@@ -6,7 +6,10 @@ export default function Home() {
       <Navbar />
       <div className="flex max-w-4xl flex-col items-center gap-4 text-black">
         <div className="flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1">
-          <div className="h-2 w-2 rounded-full bg-green-400"></div>
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400"></span>
+          </span>
           <p className="text-sm">Launching soon</p>
         </div>
         <h1 className="text-center text-[clamp(40px,7vw,96px)] leading-[1.05] tracking-tighter">
