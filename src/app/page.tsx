@@ -13,7 +13,7 @@ export default function Home() {
           <p className="text-sm opacity-50">Launching soon</p>
         </div>
         <h1 className="text-center text-[clamp(40px,7vw,96px)] leading-[1.05] tracking-tighter">
-          Founders that <br /> accelerate founders.
+          Founders that <br /> accelerate founders
         </h1>
         <p className="max-w-lg text-center text-lg opacity-50">
           Strōm is a community for founders by founders. Get access to talent
