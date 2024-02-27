@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Navbar() {
   return (
-    <nav className="absolute top-0 flex w-full justify-between px-8 py-4">
+    <nav className="absolute top-0 flex w-full justify-between px-8 py-6">
       <p className="text-4xl tracking-tight text-black">strōm</p>
       <Link href={""}>
         <button className="flex group items-center gap-2 rounded-full border border-gray-200 bg-black px-4 py-2">
