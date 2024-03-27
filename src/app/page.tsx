@@ -19,7 +19,7 @@ export default function Home() {
           Strōm is a community for founders by founders. Get access to talent
           and capital from startup entrepreneurs worldwide.
         </p>
-        <Link href={""}>
+        <Link href="mailto:alexander.jw.wikstrom@gmail.com">
           <button className="group flex items-center gap-2 rounded-full border border-gray-200 bg-black px-6 py-3 transition duration-300 ease-in-out">
             <div className="h-2 w-2 transform rounded-full bg-green-400 transition-all duration-300 ease-in-out  group-hover:scale-150"></div>
             <p className="text-white">Join waitlist -&gt;</p>
